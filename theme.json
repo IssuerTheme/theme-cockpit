@@ -1,0 +1,68 @@
+{
+  "id": "cockpit",
+  "name": "Cockpit",
+  "description": "航空機のコックピットをイメージしたダークテーマ。計器パネル風のダッシュボードで情報を一望。",
+  "version": "1.0.0",
+  "author": "Issuer-Theme",
+  "preview": "assets/preview.png",
+
+  "colors": {
+    "brand-bg": "#0A0F1A",
+    "brand-card": "#111827",
+    "brand-border": "#1E2A3A",
+    "brand-text-main": "#D1D9E6",
+    "brand-text-muted": "#7B8BA3",
+    "brand-primary": "#38BDF8",
+    "brand-open": "#34D399",
+    "brand-closed": "#A78BFA",
+    "brand-danger": "#F87171"
+  },
+
+  "font": {
+    "family": "'JetBrains Mono', 'Noto Sans JP', monospace",
+    "importUrl": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Noto+Sans+JP:wght@400;600;700&display=swap"
+  },
+
+  "dashboard": {
+    "layout": "grid-3col",
+    "widgets": [
+      {
+        "type": "issue-summary",
+        "position": { "col": 1, "row": 1 },
+        "config": {}
+      },
+      {
+        "type": "milestone-gantt",
+        "position": { "col": 2, "row": 1, "colSpan": 2 },
+        "config": {}
+      },
+      {
+        "type": "assignee-workload",
+        "position": { "col": 1, "row": 2 },
+        "config": {}
+      },
+      {
+        "type": "label-distribution",
+        "position": { "col": 2, "row": 2 },
+        "config": {}
+      },
+      {
+        "type": "quick-actions",
+        "position": { "col": 3, "row": 2 },
+        "config": {}
+      },
+      {
+        "type": "issue-list",
+        "position": { "col": 1, "row": 3, "colSpan": 2 },
+        "config": {}
+      },
+      {
+        "type": "recent-activity",
+        "position": { "col": 3, "row": 3 },
+        "config": { "limit": 10 }
+      }
+    ]
+  },
+
+  "customCss": true
+}

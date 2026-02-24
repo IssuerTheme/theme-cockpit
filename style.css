@@ -1,0 +1,76 @@
+/* Cockpit Theme - Custom Styles */
+
+body {
+    background-image:
+        radial-gradient(ellipse at 50% 0%, rgba(56, 189, 248, 0.06) 0%, transparent 60%),
+        radial-gradient(ellipse at 0% 100%, rgba(52, 211, 153, 0.04) 0%, transparent 50%);
+    letter-spacing: 0.02em;
+}
+
+/* カードにグロー効果 */
+.bg-brand-card {
+    box-shadow:
+        0 0 0 1px rgba(56, 189, 248, 0.1),
+        0 2px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+/* ヘッダーにネオンライン */
+header {
+    border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+    box-shadow: 0 1px 12px rgba(56, 189, 248, 0.1);
+}
+
+/* ボタンのグロー */
+button:hover {
+    text-shadow: 0 0 8px rgba(56, 189, 248, 0.3);
+}
+
+/* 入力フィールドのスタイル */
+input, textarea, select {
+    background-color: #0A0F1A !important;
+    color: #D1D9E6 !important;
+    border-color: #1E2A3A !important;
+}
+input:focus, textarea:focus, select:focus {
+    border-color: #38BDF8 !important;
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2) !important;
+}
+
+/* スクロールバー */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0A0F1A;
+}
+::-webkit-scrollbar-thumb {
+    background: #1E2A3A;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #38BDF8;
+}
+
+/* 進捗バーにアニメーション */
+.rounded-full[class*="transition"] {
+    box-shadow: 0 0 6px rgba(52, 211, 153, 0.3);
+}
+
+/* ダイアログの背景も暗く */
+.bg-blue-50 {
+    background-color: #111827 !important;
+    border-color: #1E2A3A !important;
+}
+.text-blue-900 {
+    color: #38BDF8 !important;
+}
+.text-blue-600 {
+    color: #38BDF8 !important;
+}
+.border-blue-200 {
+    border-color: #1E2A3A !important;
+}
+.bg-gray-50 {
+    background-color: #0A0F1A !important;
+}
