@@ -10,15 +10,15 @@ body {
 /* カードにグロー効果 */
 .bg-brand-card {
     box-shadow:
-        0 0 0 1px rgba(56, 189, 248, 0.1),
-        0 2px 8px rgba(0, 0, 0, 0.3);
+        0 0 0 1px rgba(56, 189, 248, 0.2),
+        0 4px 12px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(4px);
 }
 
 /* ヘッダーにネオンライン */
 header {
-    border-bottom: 1px solid rgba(56, 189, 248, 0.3);
-    box-shadow: 0 1px 12px rgba(56, 189, 248, 0.1);
+    border-bottom: 1px solid rgba(56, 189, 248, 0.4);
+    box-shadow: 0 2px 16px rgba(56, 189, 248, 0.15);
 }
 
 /* ボタンのグロー */
